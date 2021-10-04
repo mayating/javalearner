@@ -8,3 +8,10 @@ spring:
     url: jdbc:mysql://110.40.237.100:3306/test?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 123456
+
+mybatis-plus:
+  # 扫描实体类
+  type-aliases-package: com.kkb.pojo
+  configuration:
+    # 驼峰命名法
+    map-underscore-to-camel-case: true
