@@ -1,4 +1,4 @@
-package cn.myt.demo.pojo;
+package cn.myt.demo.pharse1.pojo;
 
 import lombok.Data;
 

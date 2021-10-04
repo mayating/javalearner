@@ -1,7 +1,7 @@
 package cn.myt.demo;
 
-import cn.myt.demo.mapper.UserMapper;
-import cn.myt.demo.pojo.User;
+import cn.myt.demo.pharse1.mapper.UserMapper;
+import cn.myt.demo.pharse1.pojo.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

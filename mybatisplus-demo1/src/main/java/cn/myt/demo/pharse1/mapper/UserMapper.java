@@ -1,6 +1,6 @@
-package cn.myt.demo.mapper;
+package cn.myt.demo.pharse1.mapper;
 
-import cn.myt.demo.pojo.User;
+import cn.myt.demo.pharse1.pojo.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
