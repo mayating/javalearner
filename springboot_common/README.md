@@ -1,4 +1,23 @@
 **多环境选择**   
+目标：不同环境选择不同的配置   
+
+1.各环境端口号不同   
+配置文件名格式必须满足： application-{profile}.properties   
+application-dev.properties：开发环境   
+application-test.properties：测试环境   
+application-prod.properties：生产环境   
+哪个文件生效，由 application.properties 决定：   
+spring.profiles.active: {profile}，   
+如spring.profiles.active: test 即加载   
+在生产环境下，application.properties 一般放置通用内容，并设置 spring.profiles.active=prod
+
+2.业务开发中使用不同环境的代码   
+在实现类上添加 @Profile 注解，并在注解参数中指定前述配置文件中的{profile}值，用于指定该实现类所适用的环境。   
+
+3.命令行激活选择环境：   
+package 打包为 jar，在命令行添加如下参数：   
+java -jar xxx.jar --spring.profiles.active=prod   
+
 
 **异常处理**   
 异常处理，能减少代码的重复度和复杂度，有利于代码的维护，并且能快速定位到 Bug，大大提高我们的效率。   
