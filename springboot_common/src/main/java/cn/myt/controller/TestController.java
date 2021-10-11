@@ -16,7 +16,20 @@ public class TestController {
     @GetMapping
     public String testErrorPage() {
         // 手动抛出异常
-        int i = 3 / 0;
-        return "Hello Spring Boot World!";
+        //int i = 3 / 0;
+        //return "Hello Spring Boot World!";
+
+        //String s = null;
+        //s.equals("111");
+        //return s;
+
+        //String s = null;
+        //if (s == null) {
+        //    throw new BizException("-1", "字符串不能为空!");
+        //}
+        //return s;
+
+        Integer.parseInt("abc123");
+        return null;
     }
 }

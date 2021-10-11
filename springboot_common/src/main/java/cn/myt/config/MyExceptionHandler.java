@@ -1,6 +1,5 @@
 package cn.myt.config;
 
-import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -8,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @author mayating
  * @date 2021/10/11 9:41 上午
  */
-@ControllerAdvice
+//@ControllerAdvice
 public class MyExceptionHandler {
 
     @ExceptionHandler(value = Exception.class)
