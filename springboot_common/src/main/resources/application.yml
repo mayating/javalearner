@@ -1,0 +1,15 @@
+#spring.profiles.active=dev
+#spring.profiles.active=mysql
+
+#student.name=张三
+
+
+## 配置文件读取乱码问题
+#banner.charset=UTF-8
+#server.tomcat.uri-encoding=UTF-8
+#server.servlet.encoding.charset=UTF-8
+#server.servlet.encoding.enabled=true
+#server.servlet.encoding.force=true
+#spring.messages.encoding=UTF-8
+student:
+  name: 张三
