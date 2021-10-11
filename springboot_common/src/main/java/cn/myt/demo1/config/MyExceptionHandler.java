@@ -1,4 +1,4 @@
-package cn.myt.config;
+package cn.myt.demo1.config;
 
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;

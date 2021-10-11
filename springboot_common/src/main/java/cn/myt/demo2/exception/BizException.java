@@ -1,4 +1,4 @@
-package cn.myt.exception;
+package cn.myt.demo2.exception;
 
 /**
  * 自定义异常类
