@@ -58,7 +58,7 @@ RedisUtils
 RedisLockUtils
 
 
-##其他说明
+## 其他说明
 
 1.springboot2.x 使用客户端 lettuce 代替 jedis，原因如下：   
 - jedis：采用直连，在多线程环境下是非线程安全的，此时只有使用连接池，为每个 redis 实例增加物理连接
